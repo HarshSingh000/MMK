@@ -1,0 +1,27 @@
+﻿@using MMK.Models;
+@model IEnumerable<NameMenu>
+
+@*<script>
+    var a = document.querySelectorAll(".menu a");
+    for (var i = 0, length = a.length; i < length; i++) {
+        a[i].onclick = function () {
+            var b = document.querySelector(".menu li a.active");
+            if (b) b.classList.remove("active");
+            this.parentNode.classList.add('active');
+        };
+    }
+</script>
+<style>
+    .mmm li a {
+    }
+</style>*@
+<nav id="navbar" class="navbar">
+    
+    <ul>
+        @foreach (var menuname in Model)
+        {
+            <li><a class="nav-link scrollto" href="@menuname.Link">@menuname.MenuName</a></li>
+        }
+    </ul>
+    <i class="bi bi-list mobile-nav-toggle"></i>
+</nav>

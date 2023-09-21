@@ -1,0 +1,781 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\PageBuilder\\Admin\\InlineEditors\\ColorPickerEditor\\ColorPickerEditor.css",
+      "PackagePath": "staticwebassets\\PageBuilder\\Admin\\InlineEditors\\ColorPickerEditor\\ColorPickerEditor.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\PageBuilder\\Admin\\InlineEditors\\ColorPickerEditor\\color-picker-editor.js",
+      "PackagePath": "staticwebassets\\PageBuilder\\Admin\\InlineEditors\\ColorPickerEditor\\color-picker-editor.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\PageBuilder\\Admin\\InlineEditors\\ImageUploaderEditor\\dropzone\\dropzone.css",
+      "PackagePath": "staticwebassets\\PageBuilder\\Admin\\InlineEditors\\ImageUploaderEditor\\dropzone\\dropzone.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\PageBuilder\\Admin\\InlineEditors\\ImageUploaderEditor\\dropzone\\dropzone.js",
+      "PackagePath": "staticwebassets\\PageBuilder\\Admin\\InlineEditors\\ImageUploaderEditor\\dropzone\\dropzone.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\PageBuilder\\Admin\\InlineEditors\\ImageUploaderEditor\\image-uploader-editor.js",
+      "PackagePath": "staticwebassets\\PageBuilder\\Admin\\InlineEditors\\ImageUploaderEditor\\image-uploader-editor.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\PageBuilder\\Admin\\InlineEditors\\NumberEditor\\number-editor.js",
+      "PackagePath": "staticwebassets\\PageBuilder\\Admin\\InlineEditors\\NumberEditor\\number-editor.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\PageBuilder\\Admin\\InlineEditors\\SpinnerEditor\\SpinnerEditor.css",
+      "PackagePath": "staticwebassets\\PageBuilder\\Admin\\InlineEditors\\SpinnerEditor\\SpinnerEditor.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\PageBuilder\\Admin\\InlineEditors\\SpinnerEditor\\spinner-editor.js",
+      "PackagePath": "staticwebassets\\PageBuilder\\Admin\\InlineEditors\\SpinnerEditor\\spinner-editor.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\PageBuilder\\Admin\\InlineEditors\\TextEditor\\TextEditor.css",
+      "PackagePath": "staticwebassets\\PageBuilder\\Admin\\InlineEditors\\TextEditor\\TextEditor.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\PageBuilder\\Admin\\InlineEditors\\TextEditor\\text-editor.js",
+      "PackagePath": "staticwebassets\\PageBuilder\\Admin\\InlineEditors\\TextEditor\\text-editor.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\PageBuilder\\Public\\NewsletterSubscriptionWidget\\replace-form.js",
+      "PackagePath": "staticwebassets\\PageBuilder\\Public\\NewsletterSubscriptionWidget\\replace-form.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\Scripts\\addressSelector.js",
+      "PackagePath": "staticwebassets\\Scripts\\addressSelector.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\Scripts\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\Scripts\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\Scripts\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\Scripts\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\Scripts\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\Scripts\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\Scripts\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\Scripts\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\Scripts\\bootstrap.js",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\Scripts\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\Scripts\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\Scripts\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\Scripts\\countryStateSelector.js",
+      "PackagePath": "staticwebassets\\Scripts\\countryStateSelector.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\Scripts\\formAutoPost.js",
+      "PackagePath": "staticwebassets\\Scripts\\formAutoPost.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\Scripts\\jquery-3.5.1.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.5.1.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\Scripts\\jquery.unobtrusive-ajax.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.unobtrusive-ajax.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\Scripts\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\Scripts\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\Scripts\\map.js",
+      "PackagePath": "staticwebassets\\Scripts\\map.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\Scripts\\mobileMenu.js",
+      "PackagePath": "staticwebassets\\Scripts\\mobileMenu.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\Scripts\\responsiveMenuDropdown.js",
+      "PackagePath": "staticwebassets\\Scripts\\responsiveMenuDropdown.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\Scripts\\variantSelector.js",
+      "PackagePath": "staticwebassets\\Scripts\\variantSelector.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\css\\Main.css",
+      "PackagePath": "staticwebassets\\css\\Main.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\fullcalendar\\css\\main.min.css",
+      "PackagePath": "staticwebassets\\fullcalendar\\css\\main.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\fullcalendar\\js\\main.min.js",
+      "PackagePath": "staticwebassets\\fullcalendar\\js\\main.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\Happy-Rajasthan-Day.jpg",
+      "PackagePath": "staticwebassets\\img\\Happy-Rajasthan-Day.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\Services.jpg",
+      "PackagePath": "staticwebassets\\img\\Services.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\Services4.2.png",
+      "PackagePath": "staticwebassets\\img\\Services4.2.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\about-us.png",
+      "PackagePath": "staticwebassets\\img\\about-us.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\calendar\\attendance.png",
+      "PackagePath": "staticwebassets\\img\\calendar\\attendance.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\calendar\\cssjs\\fullcalendar.js",
+      "PackagePath": "staticwebassets\\img\\calendar\\cssjs\\fullcalendar.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\calendar\\cssjs\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\img\\calendar\\cssjs\\fullcalendar.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\calendar\\cssjs\\gcal.js",
+      "PackagePath": "staticwebassets\\img\\calendar\\cssjs\\gcal.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\calendar\\cssjs\\jquery-1.4.1-vsdoc.js",
+      "PackagePath": "staticwebassets\\img\\calendar\\cssjs\\jquery-1.4.1-vsdoc.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\calendar\\cssjs\\jquery-1.4.1.js",
+      "PackagePath": "staticwebassets\\img\\calendar\\cssjs\\jquery-1.4.1.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\calendar\\cssjs\\jquery-1.4.1.min.js",
+      "PackagePath": "staticwebassets\\img\\calendar\\cssjs\\jquery-1.4.1.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\calendar\\cssjs\\libraries.all.min.js",
+      "PackagePath": "staticwebassets\\img\\calendar\\cssjs\\libraries.all.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\calendar\\loading_wh.gif",
+      "PackagePath": "staticwebassets\\img\\calendar\\loading_wh.gif"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\calendar\\not_available.png",
+      "PackagePath": "staticwebassets\\img\\calendar\\not_available.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\calendar\\ui-bg_glass_55_fcf0ba_1x400.png",
+      "PackagePath": "staticwebassets\\img\\calendar\\ui-bg_glass_55_fcf0ba_1x400.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\calendar\\ui-bg_gloss-wave_100_ece8da_500x100.png",
+      "PackagePath": "staticwebassets\\img\\calendar\\ui-bg_gloss-wave_100_ece8da_500x100.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\calendar\\ui-bg_highlight-hard_100_f5f3e5_1x100.png",
+      "PackagePath": "staticwebassets\\img\\calendar\\ui-bg_highlight-hard_100_f5f3e5_1x100.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\calendar\\ui-bg_highlight-hard_100_fafaf4_1x100.png",
+      "PackagePath": "staticwebassets\\img\\calendar\\ui-bg_highlight-hard_100_fafaf4_1x100.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\calendar\\ui-bg_highlight-hard_15_459e00_1x100.png",
+      "PackagePath": "staticwebassets\\img\\calendar\\ui-bg_highlight-hard_15_459e00_1x100.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\calendar\\ui-bg_highlight-hard_95_cccccc_1x100.png",
+      "PackagePath": "staticwebassets\\img\\calendar\\ui-bg_highlight-hard_95_cccccc_1x100.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\calendar\\ui-bg_highlight-soft_25_67b021_1x100.png",
+      "PackagePath": "staticwebassets\\img\\calendar\\ui-bg_highlight-soft_25_67b021_1x100.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\calendar\\ui-bg_highlight-soft_95_ffedad_1x100.png",
+      "PackagePath": "staticwebassets\\img\\calendar\\ui-bg_highlight-soft_95_ffedad_1x100.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\calendar\\ui-bg_inset-soft_15_2b2922_1x100.png",
+      "PackagePath": "staticwebassets\\img\\calendar\\ui-bg_inset-soft_15_2b2922_1x100.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\calendar\\ui-icons_808080_256x240.png",
+      "PackagePath": "staticwebassets\\img\\calendar\\ui-icons_808080_256x240.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\calendar\\ui-icons_847e71_256x240.png",
+      "PackagePath": "staticwebassets\\img\\calendar\\ui-icons_847e71_256x240.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\calendar\\ui-icons_8dc262_256x240.png",
+      "PackagePath": "staticwebassets\\img\\calendar\\ui-icons_8dc262_256x240.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\calendar\\ui-icons_cd0a0a_256x240.png",
+      "PackagePath": "staticwebassets\\img\\calendar\\ui-icons_cd0a0a_256x240.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\calendar\\ui-icons_eeeeee_256x240.png",
+      "PackagePath": "staticwebassets\\img\\calendar\\ui-icons_eeeeee_256x240.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\calendar\\ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets\\img\\calendar\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\cta-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\cta-bg.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\fav.png",
+      "PackagePath": "staticwebassets\\img\\fav.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\hero-banner.png",
+      "PackagePath": "staticwebassets\\img\\hero-banner.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\hero-banner2.png",
+      "PackagePath": "staticwebassets\\img\\hero-banner2.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\hero-img.png",
+      "PackagePath": "staticwebassets\\img\\hero-img.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\img-1.jpg",
+      "PackagePath": "staticwebassets\\img\\img-1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\img-2.jpg",
+      "PackagePath": "staticwebassets\\img\\img-2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\kothi-dream.png",
+      "PackagePath": "staticwebassets\\img\\kothi-dream.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\models.png",
+      "PackagePath": "staticwebassets\\img\\models.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\portfolio\\portfolio-1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\portfolio\\portfolio-2.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\portfolio\\portfolio-3.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-3.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\portfolio\\portfolio-4.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-4.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\portfolio\\portfolio-5.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-5.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\portfolio\\portfolio-6.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-6.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\portfolio\\portfolio-7.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-7.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\portfolio\\portfolio-8.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-8.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\portfolio\\portfolio-9.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-9.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\problemvssolution.png",
+      "PackagePath": "staticwebassets\\img\\problemvssolution.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\relax.jpg",
+      "PackagePath": "staticwebassets\\img\\relax.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\skills.png",
+      "PackagePath": "staticwebassets\\img\\skills.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\team\\Team1.png",
+      "PackagePath": "staticwebassets\\img\\team\\Team1.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\team\\Team2.png",
+      "PackagePath": "staticwebassets\\img\\team\\Team2.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\team\\Team3.png",
+      "PackagePath": "staticwebassets\\img\\team\\Team3.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\team\\team-1.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team-1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\team\\team-2.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team-2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\team\\team-3.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team-3.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\team\\team-4.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team-4.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\thankyou.png",
+      "PackagePath": "staticwebassets\\img\\thankyou.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\welcome.jpg",
+      "PackagePath": "staticwebassets\\img\\welcome.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\img\\why-us.png",
+      "PackagePath": "staticwebassets\\img\\why-us.png"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\pawan\\main.min.css",
+      "PackagePath": "staticwebassets\\pawan\\main.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\pawan\\main.min.js",
+      "PackagePath": "staticwebassets\\pawan\\main.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\pawan\\main1.min.css",
+      "PackagePath": "staticwebassets\\pawan\\main1.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\pawan\\main1.min.js",
+      "PackagePath": "staticwebassets\\pawan\\main1.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\scss\\Readme.txt",
+      "PackagePath": "staticwebassets\\scss\\Readme.txt"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\search\\jquery.finder.js",
+      "PackagePath": "staticwebassets\\search\\jquery.finder.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\search\\jquery.highlight.js",
+      "PackagePath": "staticwebassets\\search\\jquery.highlight.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\search\\jquery.scrollto.js",
+      "PackagePath": "staticwebassets\\search\\jquery.scrollto.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\search\\mobile-emulator.css",
+      "PackagePath": "staticwebassets\\search\\mobile-emulator.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\search\\style.css",
+      "PackagePath": "staticwebassets\\search\\style.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\aos\\aos.css",
+      "PackagePath": "staticwebassets\\vendor\\aos\\aos.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\aos\\aos.js",
+      "PackagePath": "staticwebassets\\vendor\\aos\\aos.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\boxicons\\css\\animations.css",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\css\\animations.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\boxicons\\css\\boxicons.css",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\css\\boxicons.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\boxicons\\css\\boxicons.min.css",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\css\\boxicons.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\boxicons\\css\\transformations.css",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\css\\transformations.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.eot",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.eot"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.svg",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.svg"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.woff",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.woff"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.woff2"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\css\\glightbox.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\glightbox\\css\\plyr.css",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\css\\plyr.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\glightbox\\css\\plyr.min.css",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\css\\plyr.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\js\\glightbox.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\isotope-layout\\isotope.pkgd.js",
+      "PackagePath": "staticwebassets\\vendor\\isotope-layout\\isotope.pkgd.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\isotope-layout\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\vendor\\isotope-layout\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\php-email-form\\validate.js",
+      "PackagePath": "staticwebassets\\vendor\\php-email-form\\validate.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\remixicon\\remixicon.css",
+      "PackagePath": "staticwebassets\\vendor\\remixicon\\remixicon.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\remixicon\\remixicon.eot",
+      "PackagePath": "staticwebassets\\vendor\\remixicon\\remixicon.eot"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\remixicon\\remixicon.less",
+      "PackagePath": "staticwebassets\\vendor\\remixicon\\remixicon.less"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\remixicon\\remixicon.svg",
+      "PackagePath": "staticwebassets\\vendor\\remixicon\\remixicon.svg"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\remixicon\\remixicon.symbol.svg",
+      "PackagePath": "staticwebassets\\vendor\\remixicon\\remixicon.symbol.svg"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\remixicon\\remixicon.ttf",
+      "PackagePath": "staticwebassets\\vendor\\remixicon\\remixicon.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\remixicon\\remixicon.woff",
+      "PackagePath": "staticwebassets\\vendor\\remixicon\\remixicon.woff"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\remixicon\\remixicon.woff2",
+      "PackagePath": "staticwebassets\\vendor\\remixicon\\remixicon.woff2"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\vendor\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\vendor\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\swiper\\swiper-bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\MMK\\MMK\\MMK\\wwwroot\\vendor\\waypoints\\noframework.waypoints.js",
+      "PackagePath": "staticwebassets\\vendor\\waypoints\\noframework.waypoints.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MMK.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.MMK.props",
+      "PackagePath": "build\\MMK.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.MMK.props",
+      "PackagePath": "buildMultiTargeting\\MMK.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.MMK.props",
+      "PackagePath": "buildTransitive\\MMK.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

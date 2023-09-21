@@ -1,0 +1,49 @@
+﻿@using MMK.InlineEditors
+@using MMK.Widgets
+
+@model BannerWidgetModel
+
+@{
+    string styleAttribute = null;
+    if (!string.IsNullOrEmpty(Model.ImagePath))
+    {
+        styleAttribute = $"style=\"background-image: url('{Url.Content(Model.ImagePath)}');\"";
+    }
+
+    bool editMode = Context.Kentico().PageBuilder().EditMode;
+    bool displayLink = !editMode && !String.IsNullOrEmpty(Model.LinkUrl);
+}
+
+@if (editMode)
+{
+    <vc:image-uploader image-type="@ImageTypeEnum.MediaFile" property-name="@nameof(BannerWidgetProperties.Image)"
+                   has-image="@(Model.ImagePath != null)" message-position="@PanelPositionEnum.Top"
+                   use-absolute-position="true" />
+}
+
+
+
+
+
+
+@if (displayLink)
+{
+    <a title="@Model.LinkTitle" href="@Model.LinkUrl" class="banner-link">
+        @{
+            await RenderBanner();
+        }
+    </a>
+}
+else
+{
+    await RenderBanner();
+}
+
+
+@{
+    async Task RenderBanner()
+    {
+        <img src="@Model.ImagePath" class="img-fluid" alt="">
+    }
+}
+

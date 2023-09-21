@@ -1,0 +1,68 @@
+.finder-activator {
+    /*	position:fixed;
+	z-index: 1;*/
+    margin:0px 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.content {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+@media (min-width: 436px) {
+    body {
+        background: #666;
+        margin: 0;
+    }
+
+    .app {
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        overflow-y: auto;
+        padding: 0;
+    }
+
+        .app::before {
+            content: ' ';
+            position: absolute;
+            top: 90px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 99999;
+            display: block;
+            width: 364px;
+            height: 50px;
+        }
+    /*
+	.finder-activator {
+		top: 13px;
+		left: calc(112% - 299px);
+	}*/
+
+    .finder {
+        top: -50px;
+        right: calc(9% - 150px);
+        left: calc(91% - 182px);
+    }
+
+        .finder.active {
+            top: 15px;
+        }
+}
+
+@media (max-width: 4000px) {
+    .app {
+        max-height: 100vh;
+        overflow-y: auto;
+    }
+}
+
+@media (max-width: 437px) {
+
+    /*	.finder-activator {
+		position: unset;
+	}*/
+}

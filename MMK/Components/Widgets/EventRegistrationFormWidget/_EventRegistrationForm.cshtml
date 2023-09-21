@@ -1,0 +1,40 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, Kentico.Content.Web.Mvc
+@using MMK.Events
+
+@model RegistrationModel
+@{ 
+    var submitAction = "";
+    if (Model.SubmitAction.Equals("text")) submitAction = "replaceForm(event)";
+}
+
+<form class="subscribe-form" asp-action="Register" asp-controller="EventRegistrationFormWidget" asp-antiforgery="true" onsubmit="@submitAction">
+    <input asp-for="SubmitAction"/>
+    <input asp-for="ActionRelatedData"/>
+    <page-data/>
+    
+
+    <div class="form-group">
+        <div class="form-group-label">
+            <label asp-for="FirstName"></label>
+        </div>
+        <div class="form-group-input">
+            <input asp-for="FirstName" />
+        </div>
+        <div class="form-group-label">
+            <label asp-for="LastName"></label>
+        </div>
+        <div class="form-group-input">
+            <input asp-for="LastName" />
+        </div>
+        <div class="form-group-label">
+            <label asp-for="Email"></label>
+        </div>
+        <div class="form-group-input">
+            <input asp-for="Email" />
+            <span asp-validation-for="Email" class="message message-error"></span>
+        </div>
+    </div>
+
+    <input id="btnRegister" type="submit" value="Register" class="btn btn-primary" />
+</form>

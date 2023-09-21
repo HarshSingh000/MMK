@@ -1,0 +1,230 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutHeaderFooter.cshtml";
+}
+@model IEnumerable<MMK.Models.CalendarModel>
+
+@{
+    ViewData["Title"] = "Calendar";
+
+    var events = (IEnumerable<MMK.Models.CalendarModel>)ViewData["events"];
+    var length = events.Count();
+}
+
+<table id="todoTable">
+    @for (int i = 0; i < length; i++)
+    {
+        <tr>
+            <td>@Html.Encode(events.ElementAt(i).Id )</td>
+            <td>@Html.Encode(events.ElementAt(i).Title)</td>
+            <td>@Html.Encode(events.ElementAt(i).StartDate)</td>
+        </tr>
+    }
+</table>
+
+<section id="portfolio" class="portfolio">
+    <div class="container" data-aos="fade-up">
+    <div class="calendarContainer">
+        <div id="calendar"></div>
+    </div>
+    </div>
+<
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.1.0/main.min.css">
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.1.0/main.min.js"></script>
+
+<script>
+    let eventsArr = loadData();
+    let calendar = initCalendar();
+
+    function loadData() {
+        let eventsArr = [];
+
+        let todoTable = document.getElementById("todoTable");
+        let trElem = todoTable.getElementsByTagName("tr");
+        console.log(trElem);
+        for (let tr of trElem) {
+            console.log(tr);
+            let tdElems = tr.getElementsByTagName("td");
+            let eventObj = {
+                id: tdElems[0].innerText,
+                title: tdElems[1].innerText,
+                start: tdElems[2].innerText,
+            }
+
+            eventsArr.push(eventObj);
+        }
+
+        return eventsArr;
+    }
+
+    function initCalendar() {
+        var calendarEl = document.getElementById('calendar');
+
+        let calendar = new FullCalendar.Calendar(calendarEl, {
+            initialView: 'dayGridMonth',
+            headerToolbar: {
+                left: 'prev,next today',
+                center: 'title',
+                right: 'dayGridMonth,timeGridWeek,timeGridDay'
+            },
+            events: eventsArr,
+        });
+
+        calendar.render();
+
+        return calendar;
+    }
+</script>
+    <div class="modal" id="modal-one" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-header">
+                <h2>30-MARCH-2023</h2>
+                <a href="#modal-one" class="btn-close" aria-hidden="true">×</a>
+
+            </div>
+            <div class="modal-body">
+                <h3>Rajasthan Day..!</h3>
+                <p>Rajasthan Day is celebrated every year on March 30 to commemorate the day on which the state came into existence.</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#modal-one" class="btn">Close</a>
+
+            </div>
+        </div>
+    </div>
+
+    <style>
+
+
+
+
+        hr {
+            clear: both;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            border: 0;
+            border-top: 1px solid #aaaaaa;
+        }
+
+        h1 {
+            font-size: 30px;
+            margin-bottom: 40px;
+        }
+
+        h3 {
+            font-size: 15px;
+            color: red;
+            text-align: center;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            background: #428bca;
+            border: #357ebd solid 1px;
+            border-radius: 3px;
+            color: #fff;
+            display: inline-block;
+            font-size: 14px;
+            padding: 8px 15px;
+            text-decoration: none;
+            text-align: center;
+            min-width: 60px;
+            position: relative;
+            transition: color .1s ease;
+        }
+
+            .btn:hover {
+                background: #357ebd;
+            }
+
+            .btn.btn-big {
+                font-size: 18px;
+                padding: 15px 20px;
+                min-width: 100px;
+            }
+
+        .btn-close {
+            color: #aaaaaa;
+            font-size: 30px;
+            text-decoration: none;
+            position: absolute;
+            right: 5px;
+            top: 0;
+        }
+
+            .btn-close:hover {
+                color: #919191;
+            }
+
+        .modal:target:before {
+            display: none;
+        }
+
+        .modal:before {
+            content: "";
+            display: block;
+            background: rgba(0, 0, 0, 0.6);
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 10;
+        }
+
+        .modal .modal-dialog {
+            background: #fefefe;
+            border: #333333 solid 1px;
+            border-radius: 5px;
+            margin-left: -200px;
+            position: fixed;
+            left: 50%;
+            z-index: 11;
+            width: 360px;
+            -webkit-transform: translate(0, 0);
+            -ms-transform: translate(0, 0);
+            transform: translate(0, 0);
+            -webkit-transition: -webkit-transform 0.3s ease-out;
+            -moz-transition: -moz-transform 0.3s ease-out;
+            -o-transition: -o-transform 0.3s ease-out;
+            transition: transform 0.3s ease-out;
+            top: 20%;
+        }
+
+        .modal:target .modal-dialog {
+            top: -100%;
+            -webkit-transform: translate(0, -500%);
+            -ms-transform: translate(0, -500%);
+            transform: translate(0, -500%);
+        }
+
+        .modal-body {
+            padding: 20px;
+        }
+
+        .modal-header, .modal-footer {
+            padding: 10px 20px;
+        }
+
+        .modal-header {
+            border-bottom: #eeeeee solid 1px;
+        }
+
+            .modal-header h2 {
+                font-size: 20px;
+                text-align: center;
+            }
+
+            .modal-header h3 {
+                font-size: 15px;
+                text-align: center;
+            }
+
+        .modal-footer {
+            border-top: #eeeeee solid 1px;
+            text-align: right;
+        }
+    </style>

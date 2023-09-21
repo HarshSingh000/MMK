@@ -1,0 +1,113 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MMK
+build_property.RootNamespace = MMK
+build_property.ProjectDir = D:\Projects\MMK\MMK\MMK\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Projects\MMK\MMK\MMK
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Projects/MMK/MMK/MMK/Components/InlineEditors/ImageUploaderEditor/_ImageUploaderEditor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJbmxpbmVFZGl0b3JzXEltYWdlVXBsb2FkZXJFZGl0b3JcX0ltYWdlVXBsb2FkZXJFZGl0b3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MMK/MMK/MMK/Components/InlineEditors/TextEditor/_TextEditor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJbmxpbmVFZGl0b3JzXFRleHRFZGl0b3JcX1RleHRFZGl0b3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MMK/MMK/MMK/Components/Widgets/BannerWidget/_BannerWidget.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xXaWRnZXRzXEJhbm5lcldpZGdldFxfQmFubmVyV2lkZ2V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MMK/MMK/MMK/Components/Widgets/EventCalendarWidget/_css.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xXaWRnZXRzXEV2ZW50Q2FsZW5kYXJXaWRnZXRcX2Nzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MMK/MMK/MMK/Components/Widgets/EventCalendarWidget/_EventCalendar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xXaWRnZXRzXEV2ZW50Q2FsZW5kYXJXaWRnZXRcX0V2ZW50Q2FsZW5kYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MMK/MMK/MMK/Components/Widgets/EventCalendarWidget/_js.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xXaWRnZXRzXEV2ZW50Q2FsZW5kYXJXaWRnZXRcX2pzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MMK/MMK/MMK/Components/Widgets/EventRegistrationFormWidget/_EventRegistrationForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xXaWRnZXRzXEV2ZW50UmVnaXN0cmF0aW9uRm9ybVdpZGdldFxfRXZlbnRSZWdpc3RyYXRpb25Gb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MMK/MMK/MMK/Components/Widgets/ImageAndText/_OnlyImageWidget.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xXaWRnZXRzXEltYWdlQW5kVGV4dFxfT25seUltYWdlV2lkZ2V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MMK/MMK/MMK/Components/Widgets/Search/_searchWidget.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xXaWRnZXRzXFNlYXJjaFxfc2VhcmNoV2lkZ2V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MMK/MMK/MMK/Components/Widgets/TextandImage/_TextImageWidget.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xXaWRnZXRzXFRleHRhbmRJbWFnZVxfVGV4dEltYWdlV2lkZ2V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MMK/MMK/MMK/Components/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MMK/MMK/MMK/Views/Calendar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsZW5kYXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MMK/MMK/MMK/Views/Calendar/Indexlatest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsZW5kYXJcSW5kZXhsYXRlc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MMK/MMK/MMK/Views/DropDown/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJvcERvd25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MMK/MMK/MMK/Views/Faq/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFxXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MMK/MMK/MMK/Views/Gallery/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsbGVyeVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MMK/MMK/MMK/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MMK/MMK/MMK/Views/Menu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MMK/MMK/MMK/Views/Shared/LayoutDemo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dERlbW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MMK/MMK/MMK/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MMK/MMK/MMK/Views/Shared/_LayoutHeaderFooter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRIZWFkZXJGb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MMK/MMK/MMK/Views/Team/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MMK/MMK/MMK/Views/ThankYou/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhhbmtZb3VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MMK/MMK/MMK/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

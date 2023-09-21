@@ -1,0 +1,148 @@
+﻿@using Kentico.PageBuilder.Web.Mvc;
+@using Kentico.Web.Mvc;
+@using MMK.InlineEditors
+@using MMK.Widgets
+@inject IPageBuilderDataContextRetriever pageBuilderContext
+@model TextImageWidgetViewModel
+
+
+@{
+    bool editMode = Context.Kentico().PageBuilder().EditMode;
+    string ImageClass, DescriptionClass, AllowButton;
+    if (@Model.ImageDirection == "LEFT")
+    {
+        ImageClass = "order-1 order-lg-1";
+        DescriptionClass = "order-2 order-lg-2";
+    }
+    else
+    {
+        ImageClass = "order-2 order-lg-2";
+        DescriptionClass = "order-1 order-lg-1";
+    }
+
+    if (@Model.AllowButton)
+    {
+        AllowButton = "";
+    }
+    else
+    {
+        AllowButton = "hidden";
+    }
+}
+
+
+@* @{
+    async Task RenderBanner()
+    {
+        <style>
+            .hidden {
+                display: none !important;
+                visibility: hidden;
+            }
+        </style>
+        <section class="solution section-bg welcome-text">
+
+            <div class="container">
+                <div class="section-title">
+                    <h2>@Model.Title</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  @DescriptionClass">
+                        <div class="content">
+                            <p>
+                                @Html.Kentico().ResolveUrls(Model.Description)
+                            </p>
+                        </div>
+                    </div>
+                    @if (editMode)
+                    {
+                        <vc:image-uploader image-type="@ImageTypeEnum.MediaFile" property-name="@nameof(TextImageWidgetProperties.Image)"
+                               has-image="@(Model.ImagePath != null)" message-position="@PanelPositionEnum.Top"
+                               use-absolute-position="true" />
+                    }
+                    <div class="col-lg-5 align-items-stretch order-2 order-lg-1 img"
+                         style='background-image: url(@Model.ImagePath);' data-aos="zoom-in" data-aos-delay="150">
+                        &nbsp;
+                    </div>
+                </div>
+                <div class="gallery-but @AllowButton">
+                    <button type="button" class="gallery-but button">
+                        <a href="@Model.ButtonLink" target="_blank">@Model.ButtonText</a>
+                    </button>
+                </div>
+            </div>
+        </section>
+    }
+} *@
+
+@{
+    async Task RenderBanner()
+    {
+        <link rel="stylesheet" href="~/css/Main.css">
+     
+        <div class="call-action color-white">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 primary-color position-relative call-action-left call-action-box" style="background-color:@Model.bgColor!important">
+                        <div class="call-action-box content-wrap">
+                            <h3>@Model.Title</h3>
+                            <p>@Html.Kentico().ResolveUrls(Model.Description)</p>
+                            <a href="career" class="btn secondary-btn">@Model.ButtonText</a>
+                        </div>
+                        <div class="call-action-icon position-absolute">
+                            <img src="@Model.ImagePath" alt="career-icon">
+                        </div>
+                    </div>
+                    @if (editMode)
+                    {
+                        <vc:image-uploader image-type="@ImageTypeEnum.MediaFile" property-name="@nameof(TextImageWidgetProperties.Image)"
+                                           has-image="@(Model.ImagePath != null)" message-position="@PanelPositionEnum.Top"
+                                           use-absolute-position="true" />
+                    }
+                    <div class="col-lg-6 col-md-6 primary-color position-relative call-action-right call-action-box" style="background-color:#F05A22!important">
+                        <div class="call-action-box content-wrap">
+                            <h3>@Model.Title1</h3>
+                            <p>@Html.Kentico().ResolveUrls(Model.Description1)</p>
+                            <a href="career" class="btn secondary-btn">@Model.ButtonText1</a>
+                        </div>
+                        <div class="call-action-icon position-absolute">
+                            <img src="@Model.ImagePath" alt="Collaborate with us">
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    }
+}
+@{
+    await RenderBanner();
+}
+
+@if (pageBuilderContext.Retrieve().EditMode)
+{
+    var inlineEditorModel = new TextImageWidgetViewModel
+                {
+                    Title = nameof(TextImageWidgetProperties.Title),
+                    Title1 = nameof(TextImageWidgetProperties.Title1),
+                    Description = @Model.Description,
+                    Description1 = @Model.Description1,
+                    ButtonLink = @Model.ButtonLink,
+                    ImageDirection = @Model.ImageDirection,
+                    ButtonText = @Model.ButtonText,
+                    ButtonText1 = @Model.ButtonText1,
+                    bgColor = @Model.bgColor,
+                    AllowButton = Model.AllowButton
+                };
+}
+
+
+
+
+
+
+
+
+
+
+
